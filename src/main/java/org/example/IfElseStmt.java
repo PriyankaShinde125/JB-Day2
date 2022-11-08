@@ -35,6 +35,21 @@ public class IfElseStmt {
             System.out.println("Nine");
         else
             System.out.println("Invalid input");
-
     }
+
+    public void displayUnit() {
+        String unit = null;
+        System.out.println("Enter number");
+        number = sc.nextInt();
+        if (number == 1)
+            unit = "Unit";
+        else if (number == 10)
+            unit = "Ten";
+        else if (number == 100)
+            unit = "Hundred";
+        else if (number == 1000)
+            unit = "Thousand";
+        System.out.println(unit);
+    }
+
 }

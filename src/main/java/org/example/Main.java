@@ -8,6 +8,8 @@ public class Main {
         IfElseStmt ifElseStmtObj=new IfElseStmt();
         //1.1 Number to word
         ifElseStmtObj.numberToWord();
+        //1.2 Display Unit
+        ifElseStmtObj.displayUnit();
     }
 
 }

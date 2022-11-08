@@ -14,12 +14,23 @@ public class Loops {
         int sum = 0;
         int i = 0;
         System.out.println("Enter a natural number");
-        number=sc.nextInt();
-        while (i <= number)
-        {
-            sum=sum+i;
+        number = sc.nextInt();
+        while (i <= number) {
+            sum = sum + i;
             i++;
         }
-        System.out.println("Sum of first" +number+" natural number is "+sum);
+        System.out.println("Sum of first" + number + " natural number is " + sum);
+    }
+
+    public void reverseNoWithWhileLoop() {
+        int reverse = 0, reminder;
+        System.out.println("Enter number to reverse");
+        number = sc.nextInt();
+        while (number > 0) {
+            reminder = number % 10;
+            reverse = reverse * 10 + reminder;
+            number = number / 10;
+        }
+        System.out.println("Reverse number is "+reverse);
     }
 }

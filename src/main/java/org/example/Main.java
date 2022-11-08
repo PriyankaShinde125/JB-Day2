@@ -16,7 +16,9 @@ public class Main {
         loopsObj.sumWithWhileLoop();
         loopsObj.reverseNoWithWhileLoop();
         loopsObj.sumWithForLoop();
-        loopsObj.reverseNoWithForLoop();
+        int number=12345;
+        loopsObj.reverseNoWithForLoop(number);
+        loopsObj.checkPalindromeWithForLoop();
     }
 
 }

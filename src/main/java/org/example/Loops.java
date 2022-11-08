@@ -45,14 +45,22 @@ public class Loops {
         System.out.println("Sum of first" + number + " natural number is " + sum);
     }
 
-    public void reverseNoWithForLoop() {
+    public int reverseNoWithForLoop(int number) {
         int reverse = 0, reminder;
-        System.out.println("Enter number to reverse");
-        number = sc.nextInt();
         for (int i=number;i>0;i=i/10) {
             reminder = i % 10;
             reverse = reverse * 10 + reminder;
         }
-        System.out.println("Reverse number is " + reverse);
+       return reverse;
+    }
+
+    public void checkPalindromeWithForLoop() {
+        System.out.println("Enter a natural number");
+        number = sc.nextInt();
+        int reverse=reverseNoWithForLoop(number);
+        if(number==reverse)
+            System.out.println("It is palindrome number");
+        else System.out.println("It is not palindrome number");
+
     }
 }

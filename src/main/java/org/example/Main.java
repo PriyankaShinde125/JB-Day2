@@ -16,6 +16,7 @@ public class Main {
         loopsObj.sumWithWhileLoop();
         loopsObj.reverseNoWithWhileLoop();
         loopsObj.sumWithForLoop();
+        loopsObj.reverseNoWithForLoop();
     }
 
 }

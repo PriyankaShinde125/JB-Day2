@@ -23,6 +23,7 @@ public class Main {
         //3 Switch Statement
         SwitchStmt switchStmtObj = new SwitchStmt();
         switchStmtObj.isVowelOrConsonant();
+        switchStmtObj.getMonthNameFromNumber();
     }
 
 }

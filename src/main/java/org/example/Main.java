@@ -26,7 +26,6 @@ public class Main {
         switchStmtObj.getMonthNameFromNumber();
         //4 Operators
         Operators operatorsObj = new Operators();
-        operatorsObj.evaluateAndFindMinMax();
         operatorsObj.rootsOfQuadraticEq();
 
     }

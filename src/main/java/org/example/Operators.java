@@ -59,4 +59,21 @@ public class Operators {
         }
         return min;
     }
+
+    public void rootsOfQuadraticEq() {
+        System.out.println("Enter three numbers  a b c");
+        sc = new Scanner(System.in);
+        a = sc.nextInt();
+        b = sc.nextInt();
+        c = sc.nextInt();
+        double delta = b * b - 4 * a * c;
+        if (delta > 0) {
+            double root1 = ((-b + Math.sqrt(delta)) / (2 * a));
+            double root2 = ((-b - Math.sqrt(delta)) / (2 * a));
+            System.out.format("Root1 = %.2f and Root2 = %.2f", root1, root2);
+        } else if (delta == 0) {
+            double root1 = -b / (2.0 * a);
+            System.out.println("Roots are equal. Root1=Root2= " + root1);
+        } else System.out.println("Roots not real");
+    }
 }

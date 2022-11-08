@@ -27,6 +27,7 @@ public class Main {
         //4 Operators
         Operators operatorsObj = new Operators();
         operatorsObj.evaluateAndFindMinMax();
+        operatorsObj.rootsOfQuadraticEq();
 
     }
 

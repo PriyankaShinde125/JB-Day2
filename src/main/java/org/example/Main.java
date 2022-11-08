@@ -24,6 +24,10 @@ public class Main {
         SwitchStmt switchStmtObj = new SwitchStmt();
         switchStmtObj.isVowelOrConsonant();
         switchStmtObj.getMonthNameFromNumber();
+        //4 Operators
+        Operators operatorsObj = new Operators();
+        operatorsObj.evaluateAndFindMinMax();
+
     }
 
 }

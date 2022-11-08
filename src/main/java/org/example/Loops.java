@@ -31,6 +31,17 @@ public class Loops {
             reverse = reverse * 10 + reminder;
             number = number / 10;
         }
-        System.out.println("Reverse number is "+reverse);
+        System.out.println("Reverse number is " + reverse);
+    }
+
+    public void sumWithForLoop() {
+        int sum = 0;
+        int i = 0;
+        System.out.println("Enter a natural number");
+        number = sc.nextInt();
+        for (i = 0; i <= number; i++) {
+            sum = sum + i;
+        }
+        System.out.println("Sum of first" + number + " natural number is " + sum);
     }
 }

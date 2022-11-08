@@ -10,6 +10,10 @@ public class Main {
         ifElseStmtObj.numberToWord();
         //1.2 Display Unit
         ifElseStmtObj.displayUnit();
+
+        //2 Loops
+        Loops loopsObj=new Loops();
+        loopsObj.sumWithWhileLoop();
     }
 
 }
